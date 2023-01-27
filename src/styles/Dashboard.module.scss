@@ -1,0 +1,11 @@
+.alunoForm {
+    label {
+        display: flex;
+        flex-direction: column;
+        
+        input[type='text'], select {
+            @apply p-2 outline-none focus:border border-slate-500;
+        }
+    }
+
+}
